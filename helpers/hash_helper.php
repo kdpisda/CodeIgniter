@@ -10,6 +10,11 @@ Written By: Louis Milotte
 Email: louis.milotte@rvathetech.com
 Website: http://www.rvathetech.com
 Download: https://github.com/LouisMilotte/codeigniter/blob/master/helpers/hash_helper.php
+Install instructions:
+	Install this file into your existing CodeIgniter installation. /application/helpers/hash_helper.php
+Loading:
+	To run this file in your installation read: https://ellislab.com/codeigniter/user-guide/general/autoloader.html and https://ellislab.com/codeigniter/user-guide/general/helpers.html
+	If you use the $this->load->helper(); method; the name of the file to be loaded is 'hash'. Ergo, $this->load->helper('hash');
 */
 
 if(!function_exists('generate_salt')){
