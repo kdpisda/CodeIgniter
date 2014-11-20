@@ -9,7 +9,7 @@ Functions used:
 Written By: Louis Milotte
 Email: louis.milotte@rvathetech.com
 Website: http://www.rvathetech.com
-Download: 
+Download: https://github.com/LouisMilotte/codeigniter/blob/master/helpers/hash_helper.php
 */
 
 if(!function_exists('generate_salt')){
